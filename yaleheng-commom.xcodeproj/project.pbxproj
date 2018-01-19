@@ -13,6 +13,7 @@
 		A1EB6B572011D072002158D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1EB6B562011D072002158D2 /* Assets.xcassets */; };
 		A1EB6B5A2011D072002158D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EB6B582011D072002158D2 /* LaunchScreen.storyboard */; };
 		A1EB6B5D2011D072002158D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EB6B5C2011D072002158D2 /* main.m */; };
+		A1EB6B682011D9A2002158D2 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EB6B672011D9A2002158D2 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A1EB6B592011D072002158D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1EB6B5B2011D072002158D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1EB6B5C2011D072002158D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1EB6B662011D9A2002158D2 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		A1EB6B672011D9A2002158D2 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,9 @@
 		A1EB6B4C2011D072002158D2 /* yaleheng-commom */ = {
 			isa = PBXGroup;
 			children = (
+				A1EB6B632011D4AA002158D2 /* classes */,
+				A1EB6B642011D4EA002158D2 /* header */,
+				A1EB6B652011D53A002158D2 /* resourse */,
 				A1EB6B4D2011D072002158D2 /* AppDelegate.h */,
 				A1EB6B4E2011D072002158D2 /* AppDelegate.m */,
 				A1EB6B502011D072002158D2 /* ViewController.h */,
@@ -69,6 +75,29 @@
 				A1EB6B5C2011D072002158D2 /* main.m */,
 			);
 			path = "yaleheng-commom";
+			sourceTree = "<group>";
+		};
+		A1EB6B632011D4AA002158D2 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1EB6B662011D9A2002158D2 /* Test.h */,
+				A1EB6B672011D9A2002158D2 /* Test.m */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		A1EB6B642011D4EA002158D2 /* header */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = header;
+			sourceTree = "<group>";
+		};
+		A1EB6B652011D53A002158D2 /* resourse */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resourse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1EB6B522011D072002158D2 /* ViewController.m in Sources */,
+				A1EB6B682011D9A2002158D2 /* Test.m in Sources */,
 				A1EB6B5D2011D072002158D2 /* main.m in Sources */,
 				A1EB6B4F2011D072002158D2 /* AppDelegate.m in Sources */,
 			);

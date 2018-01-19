@@ -12,6 +12,14 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-
+//'LCActionSheet', '~> 3.3.3'
+//'SDCycleScrollView', '~> 1.74'
+//'SCLAlertView-Objective-C', '~> 1.1.2'
+//'MBProgressHUD', '~> 1.0.0'
+//'SVProgressHUD', '~> 2.2.2'
+//'Toast', '~> 3.0'
+//'MJExtension', '~> 3.0.13'
+//'MJRefresh', '~> 3.1.15'
+//'Reachability', '~> 3.2'
 @end
 
